@@ -1,7 +1,7 @@
 # ArXiv_Classifier
 Classify arXiv preprints by their meta-data
 
-## supervised multi-label classification, NLP, imbalanced data 
+## supervised multiclass classification, NLP, imbalanced data 
 
 ArXiv is an online repository of scientific pre-prints, see https://arxiv.org/help/general
 
