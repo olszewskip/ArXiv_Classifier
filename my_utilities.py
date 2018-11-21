@@ -4,10 +4,11 @@ def save_dict(dict_, file_name):
             file.write("".join([str(key),"\t" , str(value), "\n"]))
 
             
-def read_dict(dict_, file_name):
+def read_dict(file_name):
+    dict_ = {}
     with open(file_name, "r") as file:
         for line in file:
             key, value = line.rstrip('\n').split('\t')
             dict_[key] = value
-
+    return dict_
 
