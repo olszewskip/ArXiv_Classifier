@@ -16,7 +16,7 @@ The main objective of the project is to predict the **primary category** of a pa
 
 As a measure of success I choose the **macro f1 score**. I care both about *precision* and *recall*, and I like all my classes equally (regardless of imbalances in data).
 
-The project naturally splits into few tasks that co:
+The project naturally splits into few tasks that correspond to standalone Jupyter notebooks:
 * Harvest the data using the public API
 * Tidy up, have a closer look at the data, strip it down to the chosen features
 * Build and test pipelines with shallow classifiers
