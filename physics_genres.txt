@@ -1,0 +1,13 @@
+astro-ph	Astrophysics
+cond-mat	Condensed Matter
+gr-qc	General Relativity and Quantum Cosmology
+hep-ex	High Energy Physics - Experiment
+hep-lat	High Energy Physics - Lattice
+hep-ph	High Energy Physics - Phenomenology
+hep-th	High Energy Physics - Theory
+math-ph	Mathematical Physics
+nlin	Nonlinear Sciences
+nucl-ex	Nuclear Experiment
+nucl-th	Nuclear Theory
+physics	Physics (Other)
+quant-ph	Quantum Physics
