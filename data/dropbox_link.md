@@ -4,12 +4,12 @@ Files that I've created with the *arXiV_metadata_harvester.ipynb* and used throu
 
 My original directory tree looked something like:
 
-.\data\arXivMeta_all\
+./data/arXivMeta_all/
 
-.\data\bare_all.csv
+./data/bare_all.csv
 
-.\data\notex_all.csv
+./data/notex_all.csv
 
-.\data\Kdata\
+./data/Kdata/
 
-.\my_embeddings\
+./my_embeddings/
