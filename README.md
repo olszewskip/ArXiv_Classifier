@@ -16,11 +16,23 @@ The main objective of the project is to predict the **primary category** of a pa
 
 As a measure of success I choose the **macro f1 score**. I care both about *precision* and *recall*, and I like all my classes equally (regardless of imbalances in data).
 
-The project naturally splits into few tasks that correspond to standalone Jupyter notebooks:
-* Harvest the data using the public API
-* Tidy up, have a closer look at the data, strip it down to the chosen features
-* Build and test pipelines with shallow classifiers
-* Have fun with keras
+### The project naturally splits into few tasks that correspond to standalone Jupyter notebooks:
+desc | link | remarks 
+--- | --- | ---
+Harvest the data using the public API | [arXiv_metadata_harvester.ipynb](https://github.com/olszewskip/ArXiv_Classifier/blob/master/arXiv_metadata_harvester.ipynb)| there are 2 public APIs
+Tidy up, have a closer look, strip down to chosen features | [arXiv_cleanup.ipynb](https://github.com/olszewskip/ArXiv_Classifier/blob/master/arXiv_cleanup.ipynb)| Large imbalance, mostly single-class
+Build and test pipelines with shallow classifiers | [shallow/arXiv_shallow_clf.ipynb](https://github.com/olszewskip/ArXiv_Classifier/blob/master/shallow/arXiv_shallow_clf.ipynb)| reached 80% mF1
+Preprocess data for deep learning | [keras_preprocessing.ipynb](https://github.com/olszewskip/ArXiv_Classifier/blob/master/keras_preprocessing.ipynb)| text -> fixed-len sequence of ints
+Pretrain word-embeddings | []() | custom loss functions are helpful
+Test few neural-net architectures | []() | 
+
+Beyond that, the dataset, being reasonably *big* and challenging, offers a practicaly endless TODO list, eg.
+* examine topics modelled with LDA
+* train fancier word-embeddings using gensim
+* implement own CBOW and/or skipdram in keras and compare
+* seperate titles and abstracts into seperate channels of a neural net
+* implement real-life data-streaming, processing and learning
+* train a network to generate new abstract given the title
 ...
 
 [^1] Since 2017 there are two other classes of articles. They get harvested but I remove them from testing and training.
