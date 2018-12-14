@@ -26,7 +26,7 @@ Preprocess data for deep learning | [keras_preprocessing.ipynb](https://github.c
 Pretrain word-embeddings | []() | custom loss functions are helpful
 Test few neural-net architectures | []() | 
 
-Beyond that, the dataset, being reasonably *big* and challenging, offers a practicaly endless TODO list, eg.
+Beyond that, the dataset, being reasonably *big* and challenging, offers a practically endless TODO list, eg.
 * examine topics modelled with LDA
 * train fancier word-embeddings using gensim
 * implement own CBOW and/or skipdram in keras and compare
