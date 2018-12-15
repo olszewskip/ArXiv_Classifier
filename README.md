@@ -21,7 +21,7 @@ desc | link | remarks
 --- | --- | ---
 Harvest the data using the public API | [arXiv_metadata_harvester.ipynb](https://github.com/olszewskip/ArXiv_Classifier/blob/master/arXiv_metadata_harvester.ipynb)| there are 2 public APIs
 Tidy up, have a closer look, strip down to chosen features | [arXiv_cleanup.ipynb](https://github.com/olszewskip/ArXiv_Classifier/blob/master/arXiv_cleanup.ipynb)| Large imbalance, mostly single-class
-Build and test pipelines with shallow classifiers | [shallow/arXiv_shallow_clf.ipynb](https://github.com/olszewskip/ArXiv_Classifier/blob/master/shallow/arXiv_shallow_clf.ipynb)| reached 80% mF1
+Build and test pipelines with shallow classifiers | [shallow/arXiv_shallow_clf.ipynb](https://github.com/olszewskip/ArXiv_Classifier/blob/master/shallow/arXiv_shallow_clf.ipynb)| reached 80% macF1
 Preprocess data for deep learning | [keras_preprocessing.ipynb](https://github.com/olszewskip/ArXiv_Classifier/blob/master/keras_preprocessing.ipynb)| text -> fixed-len sequence of ints
 Pretrain word-embeddings | [keras_simple_embeddings_50dim.ipynb](https://github.com/olszewskip/ArXiv_Classifier/blob/master/keras_simple_embeddings_50dim.ipynb) | custom loss functions are helpful
 Test few neural-net architectures | []() | 
