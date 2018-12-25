@@ -31,7 +31,7 @@ Beyond that, the dataset, being reasonably *big* and challenging, offers a pract
 * train fancier word-embeddings using gensim
 * implement own CBOW and/or skipdram in keras and compare
 * seperate titles and abstracts into seperate channels of a neural net
-* implement real-life data-streaming, processing and learning
+* implement real-life data-streaming, processing and learning (also: use generators for fitting in keras)
 * train a network to generate new abstract given the title
 ...
 
