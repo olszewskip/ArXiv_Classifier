@@ -25,7 +25,7 @@ Build and test pipelines with shallow classifiers | [shallow/arXiv_shallow_clf.i
 Preprocess data for deep learning | [keras_preprocessing.ipynb](https://github.com/olszewskip/ArXiv_Classifier/blob/master/keras_preprocessing.ipynb)| text -> fixed-len sequence of ints
 Compare loss-functions/batch-sizes/optimizers and pretrain word-embeddings | [keras_GlobalAvg_GridSearch.ipynb](https://github.com/olszewskip/ArXiv_Classifier/blob/master/keras_GlobalAvg_GridSearch.ipynb) | simple net reproduces the 80% on validation; custom loss functions are helpful
 Test a couple of neural-net architectures | []() |
-Get final score on test-data | []() |
+Get final score of neural-nets on test-data | []() |
 
 Beyond that, the dataset, being reasonably *big* and challenging, offers a practically endless TODO list, eg.
 * examine topics modelled with LDA
