@@ -12,4 +12,7 @@ My original directory tree looked something like:
 
 ./data/Kdata/
 
-./my_embeddings/
+./keras_GlobalAvg_GridSearch_results/
+
+./keras_evaluate_results/
+etc.
