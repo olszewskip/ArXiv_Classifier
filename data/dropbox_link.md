@@ -15,4 +15,5 @@ My original directory tree looked something like:
 ./keras_GlobalAvg_GridSearch_results/
 
 ./keras_evaluate_results/
+
 etc.
