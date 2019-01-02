@@ -24,11 +24,14 @@ Tidy up, have a closer look, strip down to chosen features | [arXiv_cleanup.ipyn
 Build and test pipelines with shallow classifiers | [shallow/arXiv_shallow_clf.ipynb](https://github.com/olszewskip/ArXiv_Classifier/blob/master/shallow/arXiv_shallow_clf.ipynb)| reached 80% macF1
 Preprocess data for deep learning | [keras_preprocessing.ipynb](https://github.com/olszewskip/ArXiv_Classifier/blob/master/keras_preprocessing.ipynb)| text -> fixed-len sequence of ints
 Compare loss-functions/batch-sizes/optimizers and pretrain word-embeddings | [keras_GlobalAvg_GridSearch.ipynb](https://github.com/olszewskip/ArXiv_Classifier/blob/master/keras_GlobalAvg_GridSearch.ipynb) | simple net reproduces the 80% on validation; custom loss functions are helpful
-Examine a couple of neural-net architectures | []() |
-Get final score of neural-nets on test-data | []() |
+Examine a couple of neural-net architectures | []() | neural nets generically do worse than 80%
+Get final score of neural-nets on test-data | []() | the winner climbed to 81%, it uses GlobalAveragePooling and a custom loss function
+
+Models in the last three notebooks were fit using **Colab** (link to a google-directory: [ArXiv_Classifier](https://drive.google.com/open?id=1Z-NeXJ0D4t0FB9i5yPY_KyvA8m60JeWR)).
 
 Beyond that, the dataset, being reasonably *big* and challenging, offers a practically endless TODO list, eg.
 * examine topics modelled with LDA
+* examine more neural-net architectures
 * train fancier word-embeddings using gensim
 * implement own CBOW and/or skipdram in keras and compare
 * seperate titles and abstracts into seperate channels of a neural net
