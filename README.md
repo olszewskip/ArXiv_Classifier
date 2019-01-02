@@ -27,7 +27,7 @@ Compare loss-functions/batch-sizes/optimizers and pretrain word-embeddings | [ke
 Examine a couple of neural-net architectures | [keras_RNN_LSTM.ipynb](https://github.com/olszewskip/ArXiv_Classifier/blob/master/keras_RNN_LSTM.ipynb) | Neural nets generically do worse than 80%
 Get final score of neural-nets on test-data | [keras_evaluate.ipynb](https://github.com/olszewskip/ArXiv_Classifier/blob/master/keras_evaluate.ipynb) | **The winner climbed to 81% macF1**, it uses GlobalAveragePooling and a custom loss function
 
-Models in the last three notebooks were fit using **Colab** (link to a google-directory: [ArXiv_Classifier](https://drive.google.com/open?id=1Z-NeXJ0D4t0FB9i5yPY_KyvA8m60JeWR)).
+Models in the last three notebooks were fit using **Colab** (link to the google-directory: [ArXiv_Classifier](https://drive.google.com/open?id=1Z-NeXJ0D4t0FB9i5yPY_KyvA8m60JeWR)).
 
 Final conclusion of the project is that the data makes it relatively easy to obtain more than 70~75% macro-F1, and hard to go beyond 80%.
 
