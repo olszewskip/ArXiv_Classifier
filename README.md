@@ -29,7 +29,7 @@ Get final score of neural-nets on test-data | [keras_evaluate.ipynb](https://git
 
 Models in the last three notebooks were fit using **Colab** (link to the google-directory: [ArXiv_Classifier](https://drive.google.com/open?id=1Z-NeXJ0D4t0FB9i5yPY_KyvA8m60JeWR)).
 
-Final conclusion of the project is that the data makes it relatively easy to obtain more than 70~75% macro-F1, and hard to go beyond 80%.
+Final conclusion of the project is that the data makes it relatively easy to obtain more than ~75% macro-F1, and hard to go beyond 80%.
 
 Beyond that, the dataset, being reasonably *big* and challenging, offers a practically endless TODO list, eg.
 * examine topics modelled with LDA
