@@ -21,9 +21,9 @@ desc | link | remarks
 --- | --- | ---
 Harvest the data using the public API | [arXiv_metadata_harvester.ipynb](https://github.com/olszewskip/ArXiv_Classifier/blob/master/arXiv_metadata_harvester.ipynb)| there are 2 public APIs
 Tidy up, have a closer look, strip down to chosen features | [arXiv_cleanup.ipynb](https://github.com/olszewskip/ArXiv_Classifier/blob/master/arXiv_cleanup.ipynb)| Large imbalance, mostly single-class
-Build and test pipelines with shallow classifiers | [shallow/arXiv_shallow_clf.ipynb](https://github.com/olszewskip/ArXiv_Classifier/blob/master/shallow/arXiv_shallow_clf.ipynb)| reached 80% macF1
-Preprocess data for deep learning | [keras_preprocessing.ipynb](https://github.com/olszewskip/ArXiv_Classifier/blob/master/keras_preprocessing.ipynb)| Text -> fixed-len sequence of ints
-Compare loss-functions/batch-sizes/optimizers and pretrain word-embeddings | [keras_GlobalAvg_GridSearch.ipynb](https://github.com/olszewskip/ArXiv_Classifier/blob/master/keras_GlobalAvg_GridSearch.ipynb) | Simple net reproduces the 80% on validation; custom loss functions are helpful
+Build and test pipelines with shallow classifiers | [shallow/arXiv_shallow_clf.ipynb](https://github.com/olszewskip/ArXiv_Classifier/blob/master/shallow/arXiv_shallow_clf.ipynb)| Handle LaTeX expression using Regex with custom feature transformer. Grid search through classifiers. Reached 80% macF1
+Preprocess data for deep learning | [keras_preprocessing.ipynb](https://github.com/olszewskip/ArXiv_Classifier/blob/master/keras_preprocessing.ipynb)| Text -> fixed-len (zero-padded) sequence of ints
+Compare loss-functions/batch-sizes/optimizers and pretrain word-embeddings | [keras_GlobalAvg_GridSearch.ipynb](https://github.com/olszewskip/ArXiv_Classifier/blob/master/keras_GlobalAvg_GridSearch.ipynb) | Simple net reproduces the 80% on validation. Custom loss functions are helpful. Custom metric functions are informative.
 Examine a couple of neural-net architectures | [keras_RNN_LSTM.ipynb](https://github.com/olszewskip/ArXiv_Classifier/blob/master/keras_RNN_LSTM.ipynb) | Neural nets generically do worse than 80%
 Get final score of neural-nets on test-data | [keras_evaluate.ipynb](https://github.com/olszewskip/ArXiv_Classifier/blob/master/keras_evaluate.ipynb) | **The winner climbed to 81% macF1**, it uses GlobalAveragePooling and a custom loss function
 
