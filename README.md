@@ -9,7 +9,7 @@ Each paper comes with meta-data provided by one of the authors:
 * **title**
 * authors' names and forenames
 * **abstract**
-* one and only one **primary category** that can ba mapped into one of six **classes**: *mathematics*, *physics*, *computer science*, *statistics*, *quantitative biology*, *quantitative-finance* [^1]
+* one and only one **primary category** that can be mapped into one of six **classes**: *mathematics*, *physics*, *computer science*, *statistics*, *quantitative biology*, *quantitative-finance* [^1]
 * few (possibly none) secondary categories (with the same mapping as for the primary category)
 
 The main objective of the project is to predict the **class** associated with primary category of a paper given it's **title** and **abstracts** (since with using authors' names the problem becomes uninteresting).
